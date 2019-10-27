@@ -5,9 +5,9 @@ library
 
 __author__ = 'lejlot'
 
-from pykernels.base import Kernel
+from .base import Kernel
 import numpy as np
-from utils import euclidean_dist_matrix
+from .utils import euclidean_dist_matrix
 
 class Linear(Kernel):
     """
@@ -75,4 +75,3 @@ class RBF(Kernel):
 
     def dim(self):
         return np.inf
-

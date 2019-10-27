@@ -21,10 +21,10 @@ def graphs_to_adjacency_lists(data):
     try:
         if data.ndim == 3:
             return np.array(data)
-    except Exception, exc:
+    except Exception:
         try:
             return np.array([G.adjacency_matix for G in data])
-        except Exception, exc:
+        except Exception:
             return np.array(data)
 
 def relabel(data, data_2):

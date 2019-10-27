@@ -5,9 +5,9 @@ are rarely the part of any ML library
 
 __author__ = 'lejlot'
 
-from pykernels.base import Kernel
+from .base import Kernel
 import numpy as np
-from utils import euclidean_dist_matrix
+from .utils import euclidean_dist_matrix
 import warnings
 
 class Cossim(Kernel):
@@ -561,5 +561,3 @@ class Power(ConditionalyPositiveDefiniteKernel):
 
     def dim(self):
         return None
-
-

@@ -5,7 +5,7 @@ __author__ = 'kasiajanocha'
 
 import numpy as np
 import numpy.matlib as matlib
-import basic
+from . import basic
 from pykernels.base import Kernel, GraphKernel
 from scipy.sparse import lil_matrix
 

@@ -28,7 +28,7 @@ if __name__ == "__main__":
             'Intended Audience ::  Machine Learning Research',
             'License :: OSI Approved ::' + LICENSE,
             'Programming Language :: Python :: 2.7',
-            'Programming Language :: Python :: 3',
+            'Programming Language :: Python :: 3.6',
             'Operating System :: OS Independent',
             'Topic :: Software Development :: Libraries :: Python Modules',
             'Topic :: Scientific/Engineering :: Machine Learning',
